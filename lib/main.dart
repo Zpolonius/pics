@@ -1,19 +1,8 @@
 import 'package:flutter/material.dart';
 
+import './src/app.dart';
+
 void main() {
-  var myApp = MaterialApp(
-      home: Scaffold(
-    appBar: AppBar(
-      title: const Text(
-        'Let\'s see some images',
-      ),
-    ),
-    floatingActionButton: FloatingActionButton(
-      child: const Icon(Icons.add),
-      onPressed: () {
-        print('Button has been pressed');
-      },
-    ),
-  ));
+  var myApp = const App();
   runApp(myApp);
 }
