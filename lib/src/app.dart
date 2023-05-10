@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
-class App extends StatelessWidget {
-  const App({super.key});
+class App extends StatefulWidget {
+  createState() {
+    return AppState();
+  }
+}
 
+class AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
