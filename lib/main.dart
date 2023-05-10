@@ -9,6 +9,7 @@ void main() {
       ),
     ),
     floatingActionButton: FloatingActionButton(
+      child: const Icon(Icons.add),
       onPressed: () {
         print('Button has been pressed');
       },
