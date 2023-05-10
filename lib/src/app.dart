@@ -5,6 +5,19 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+        home: Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Let\'s see some images',
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
+        onPressed: () {
+          print('Button has been pressed');
+        },
+      ),
+    ));
   }
 }
