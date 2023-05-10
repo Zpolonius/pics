@@ -9,7 +9,9 @@ void main() {
       ),
     ),
     floatingActionButton: FloatingActionButton(
-      onPressed: () {},
+      onPressed: () {
+        print('Button has been pressed');
+      },
     ),
   ));
   runApp(myApp);
